@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>特邀报告</title>
+
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DCDCDC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0px;	 /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
+	margin-bottom: 0;
+	padding-right: 15px;
+	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
+	line-height: 23px;
+}
+a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+	border: none;
+}
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color: #000000;
+	text-decoration: none; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
+}
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此固定宽度容器包含其它 div ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐 */
+}
+
+/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
+.header {
+	background-color: #ADB96E;
+}
+
+/* ~~ 这是布局信息。 ~~ 
+
+1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
+
+*/
+
+.content {
+	padding: 1px 0;
+}
+
+.MenuBarHorizontal {
+    height: 80px;
+	margin: 0 auto;
+}
+.MenuBarHorizontal li.current a{  
+background: #2A9F55;
+}
+
+.text {
+	padding: 0 20px 10px 30px;
+}
+
+
+.w1{
+	width:200px;
+	height:200px;
+	}
+	
+.footer {
+	padding: 10px 0;
+	background-color:rgb(77,169,71);
+	font-size: 12px;
+}
+
+/* ~~ 其它浮动/清除类 ~~ */
+.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.tablepp {
+	font-size: 14px;
+}
+-->
+</style>
+
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="res/logo2.jpg" name="Insert_logo" width="961" height="202" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="content">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li>
+        <div align="center"><a href="index.html">首页</a></div>
+      </li>
+      <li >
+        <div align="center"><a href="news.html">会议动态</a></div>
+      </li>
+      <li class="current">
+        <div align="center"><a href="speakers.html">特邀报告</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="register.html">参会注册</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="map.html">酒店交通</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="contact.html">联系我们</a></div>
+      </li>
+    </ul>
+
+    <div class="text">
+<h3>&nbsp;&nbsp;Keynote Speakers</h3>
+</div>
+
+    <table  class="tablepp" align="center" width="762" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+		<tr>
+          <td><a href="https://hd.hainanu.edu.cn/shengyi/info/1106/1110.htm
+"><img src="res/luoqingming.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://hd.hainanu.edu.cn/shengyi/info/1106/1110.htm"><font color="#028B24">骆清铭</font></a> --海南大学、中国科学院院士，海南大学校长。 </p></td>
+        </tr>
+		<tr>
+          <td><a href="https://life.tsinghua.edu.cn/info/1031/1256.htm
+"><img src="res/chenyehua.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://life.tsinghua.edu.cn/info/1031/1256.htm"><font color="#028B24">陈烨光</font></a> --清华大学、中国科学院院士。 </p></td>
+        </tr>
+		          <tr>
+          <td><a href="http://bme.seu.edu.cn/2011/1017/c463a12264/page.htm
+"><img src="res/guzhongze.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://bme.seu.edu.cn/2011/1017/c463a12264/page.htm"><font color="#028B24">顾忠泽</font></a>-- 长江学者、国家杰出青年基金获得者，东南大学生物科学与医学工程学院院长。</p></td>
+          </tr>
+		<tr>
+          <td><a href="http://www2.coe.pku.edu.cn/subpaget.asp?id=19
+"><img src="res/xijianzhong.jpeg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://www2.coe.pku.edu.cn/subpaget.asp?id=19"><font color="#028B24">席建忠</font></a> --国家杰出青年基金获得者，北京大学工学院教授, 系主任。 </p></td>
+        </tr>
+		  		<tr>
+          <td><a href="https://life.fudan.edu.cn/91/74/c28177a299380/page.htm
+"><img src="res/linxinhua.jpg" width="100" height="110" alt=""/></a></td>
+          <td width="auto"><p><a href="https://life.fudan.edu.cn/91/74/c28177a299380/page.htm"><font color="#028B24">林鑫华</font></a> --复旦大学生命科学学院院长 复旦大学遗传工程国家重点实验室主任，遗传学研究所所长，粤港澳大湾区精准医学研究院执行院长。 </p></td>
+        </tr>
+		  		<tr>
+          <td></td>
+          <td width="auto"><p>于春萍</font></a> --美国礼来制药公司中国肿瘤研发部副总监。 </p></td>
+        </tr>
+         <tr>
+          <td><a href="http://bme.columbia.edu/kam-w-leong
+"><img src="res/Leong2.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://bme.columbia.edu/kam-w-leong"><font color="#028B24">Kam Leong</font> -- The National Academy of Engineering (NAE) member, Samuel Y. Sheng Professor of Biomedical Engineering, Columbia University, USA. </a></p></td>
+        </tr>
+        <tr>
+          <td><a href="https://ncats.nih.gov/staff/tagled
+"><img src="res/Tagle.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://ncats.nih.gov/staff/tagled"><font color="#028B24">Danilo A. Tagle</font></a> --Associate Director for Special Initiatives, National Center for Advancing Translational Sciences, National Institutes of Health (NIH), USA. </p></td>
+          </tr>
+		<tr>
+          <td><a href="https://www.binghamton.edu/biomedical-engineering/people/profile.html?id=kye
+"><img src="res/kye.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://www.binghamton.edu/biomedical-engineering/people/profile.html?id=kye"><font color="#028B24">Kaiming Ye</font></a> --Professor of Biomedical Engineering and Pharmacology, State University of New York at Binghamton, USA.</p></td>
+          </tr>
+         <tr>
+          <td><a href="https://wyss.harvard.edu/team/core-faculty/donald-ingber/
+"><img src="res/Donald2.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://wyss.harvard.edu/team/core-faculty/donald-ingber/"><font color="#028B24">Donald Ingber</font> -- Academician of the National Academy of Science (NAS) and NAE，Professor of Biomedical Engineering, Professor, Founding Director of the Wyss Institute for Biologically Inspired Engineering, Harvard University, USA. </a></p></td>
+        </tr>
+         <tr>
+          <td><a href="https://www.uu.nl/staff/JCClevers/
+"><img src="res/Hans.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://www.uu.nl/staff/JCClevers/"><font color="#028B24">Hans Clevers</font> -- Member of the Royal Netherlands Academy of Arts and Sciences and the National Academy of Sciences (NAS) of the USA. </a></p></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.nanosmap.ethz.ch/partners/ethz.html
+"><img src="res/Marcus.jpeg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://www.nanosmap.ethz.ch/partners/ethz.html"><font color="#028B24">Marcus Textor</font></a> -- Prof. Dr. (PI), Biointerfaces, ETH Zurich, Switzerland. </p></td>
+          </tr>
+       
+        <tr>
+          <td><a href="http://www.bioeng.t.u-tokyo.ac.jp/en/faculty/25_sakai.html
+"><img src="res/sakai.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://www.bioeng.t.u-tokyo.ac.jp/en/faculty/25_sakai.html"><font color="#028B24">Yasuyuki Sakai</font></a> -- Professor of Chemical System Engineering，University of Tokyo，Japan</p></td>
+          </tr>
+		  		<tr>
+          <td></td>
+          <td width="auto"><p><br>
+          </p>
+            <p>&nbsp;</p>
+            <p><strong> 更多邀请专家信息持续更新中..</strong>.</p></td>
+        </tr>
+
+      </tbody>
+    </table>
+    </div>
+    <div class="text"></div>  
+    <div class="text">
+	  <h3>往届会议报告</h3>
+	</div>
+    <div class="text">
+		<li><strong><a href="speakers2019.html" ><u>Program for 2019 Workshop on Microfluidic Chip and Tissue Engineering</u></li>
+      	<li><strong><a href="speakers2018.html"><u>Program for 2018 Workshop on Microfluidic Chip and Tissue Engineering</u></li>
+        <li><strong><a href="speakers2017.html"><u>Program for 2017 Workshop on Microfluidic Chip and Tissue Engineering</u></li>
+      
+	</div>
+    <p>&nbsp;</p>
+  <!-- end .content --></div>
+ <div class="footer">
+   <p class="foot" align="center">类器官与器官芯片研讨会 <br></p>
+   <p class="foot" align="center">主办单位：东南大学、海南大学、美国哥伦比亚大学<br>
+    承办单位：<a href="http://sklb.seu.edu.cn">生物电子学国家重点实验室</a> <a href="https://ibmd.seu.edu.cn/">东南大学苏州医疗器械研究院</a></p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
