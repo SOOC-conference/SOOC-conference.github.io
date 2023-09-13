@@ -69,7 +69,8 @@ background: #2A9F55;
 .text {
 	padding: 0px 20px 10px 20px;
 	line-height: 28px;
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	width: auto;
 	font-size: 16px;
 }
